@@ -1,0 +1,32 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-main {
+  display: flex;
+  justify-content:space-around;
+  border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+.hero-info {
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+}
+.info-services {
+  display: flex;
+  justify-content: center;
+}
