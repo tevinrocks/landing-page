@@ -28,5 +28,26 @@ h2 {
 }
 .info-services {
   display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 1;
+}
+
+.inspiration{
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inspiration p {
+  width: 500px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 1px solid black;
 }
